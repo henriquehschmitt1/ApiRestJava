@@ -22,7 +22,9 @@ public class PessoaController {
 	
 	@Autowired
 	private PessoaRepository pessoaRepository;
-	private Validators validator = new Validators();
+	
+	@Autowired
+	private Validators validator;
 	
 	@GetMapping
 	@ResponseStatus(HttpStatus.CREATED)
