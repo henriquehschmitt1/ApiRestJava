@@ -3,6 +3,7 @@ package com.zup.validators;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 
+@Service
 public class Validators {
 	public char calculaDigito(String cpf, int peso, int qtdDigitos) {
 		char digito;
