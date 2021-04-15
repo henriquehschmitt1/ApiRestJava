@@ -23,7 +23,9 @@ public class VacinaController {
 	
 	@Autowired
 	private VacinaRepository vacinaRepository;
-	private Validators validator = new Validators();
+	
+	@Autowired
+	private Validators validator;
 	
 	@GetMapping
 	@ResponseStatus(HttpStatus.CREATED)
